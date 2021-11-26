@@ -166,4 +166,4 @@ if __name__ == '__main__':
     a = Path(r'.').glob(r'*.xlsx')
     assert len(a) == 1
 
-    create_google_cal_file(a[0], Path('out.csv'))
+    create_google_cal_file(a[0], Path('expected_out.csv'))
