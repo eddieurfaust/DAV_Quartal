@@ -63,6 +63,11 @@ class Worker:
         return self
 
     def _get_start_end_datetimes(self, idx: pd.Index):
+        """
+        Returns the name, start and end time for all courses defined in the row at the given index.
+        :param idx: index of the dataframe managed by the class
+        :return: list containing zero to four courses which are extracted from one row
+        """
         def get_start_end_datetime(date_: datetime.date, start_: datetime.time, end_: datetime.time) -> Tuple:
             ret_start = datetime.combine(date_.date(), parser.parse(start_).time())
             ret_end = datetime.combine(date_.date(), parser.parse(end_).time())
@@ -73,13 +78,12 @@ class Worker:
 
         for cur_termin_no in range(1, 5):
             cur_termin_str = f'Termin {cur_termin_no}'
-            cur_date = self.df.loc[idx][cur_termin_str]
+            cur_date = self.df.loc[idx][cur_termin_str]  # this is a datetime object, we only need .date()
 
             if cur_date is None:
-                # print(f'{cur_termin_str} -> None!')
                 continue
 
-            start, end = self.df.loc[idx]['Uhrzeit'].split(' - ')
+            start, end = self.df.loc[idx]['Uhrzeit'].split(' - ')  # again, datetime objects, now we only need .time()
 
             start_datetime, end_datetime = get_start_end_datetime(cur_date, start, end)
 
@@ -106,8 +110,11 @@ class Worker:
             cur_description = self._get_description(idx)
 
             for sub_class_str, start_datetime, end_datetime in cur_list_of_subclasses:
+                subject = f'{cur_subject}'
+                if len(cur_list_of_subclasses) > 1:
+                    subject += f' - {sub_class_str}'
                 all_classes.append(Termin(
-                    subject=f'{cur_subject} - {sub_class_str}',
+                    subject=subject,
                     start=start_datetime,
                     end=end_datetime,
                     description=cur_description
@@ -120,8 +127,6 @@ def to_gcal_csv(inp: List[Termin]) -> str:
     # strftime: https://www.programiz.com/python-programming/datetime/strftime
     out = 'Subject,Start Date,Start Time,End Time,Description,All Day Event'
     out += '\n'
-
-    cur_row = inp[0]
 
     for cur_row in inp:
         row_elems = [
@@ -139,12 +144,14 @@ def to_gcal_csv(inp: List[Termin]) -> str:
     return out
 
 
-def create_google_cal_file(inp: Path, out: Path = 'out.csv') -> None:
+def create_google_cal_file(inp: Path, out: Path = 'expected_out.csv') -> None:
     df = pd.read_excel(str(inp), engine='openpyxl')
     worker = Worker(df)
 
     all_classes = worker.get_list_of_class_tuples()
-    all_classes = [c for c in all_classes if 'Frank' in c.description]
+
+    # MAYBE FILTER HERE
+    # all_classes = [c for c in all_classes if 'Frank' in c.description]
 
     csv = to_gcal_csv(all_classes)
 
