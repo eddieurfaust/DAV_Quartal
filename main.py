@@ -16,7 +16,7 @@ class Worker:
         return self
 
     def _set_column_headers(self):
-        self.df.columns = self.df.iloc[0].to_list()
+        self.df.columns = [e.strip() for e in self.df.iloc[0].to_list()]
 
         self._drop(cols=[], rows=[self.df.index[0]])
 
