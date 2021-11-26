@@ -141,10 +141,10 @@ def to_gcal_csv(inp: List[Termin]) -> str:
 
 def create_google_cal_file(inp: Path, out: Path = 'out.csv') -> None:
     df = pd.read_excel(str(inp), engine='openpyxl')
-    b = Worker(df)
+    worker = Worker(df)
 
-    all_classes = b.get_list_of_class_tuples()
-    # all_classes = [c for c in all_classes if 'Frank' in c.description and 'Anne' in c.description]
+    all_classes = worker.get_list_of_class_tuples()
+    all_classes = [c for c in all_classes if 'Frank' in c.description]
 
     csv = to_gcal_csv(all_classes)
 
@@ -158,4 +158,4 @@ if __name__ == '__main__':
     a = Path(r'.').glob(r'*.xlsx')
     assert len(a) == 1
 
-    create_google_cal_file(a[0], Path('expected_out.csv'))
+    create_google_cal_file(a[0], Path('out.csv'))
