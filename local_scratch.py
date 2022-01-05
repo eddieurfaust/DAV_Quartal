@@ -1,5 +1,7 @@
+import math
 import tabula
 import pandas as pd
+from datetime import date, time, datetime
 
 FILE = r'Kursplan Q1-2022.pdf'
 
@@ -64,11 +66,34 @@ print(a.shape)
 # a = a.dropna(subset=['Termin 1'])
 a = a[a["Kurs"].str.contains("XXX|!!!|---") == False]
 
-print(a.shape)
+
+a = a.reset_index()
 
 ### hiermit kann man nun arbeiten
+cur_row = a.loc[1]
 # Trainer: Trainer 1
+tr1 = cur_row['Trainer 1']
 # Backup: Trainer 2
+tr2 = cur_row['Trainer 2']
 # Datum: Termin 1..4
+def get_days(inp):
+    lst = []
+    for t in ['Termin 1', 'Termin 2', 'Termin 3', 'Termin 4']:
+        if type(inp[t]) == str:
+            a = datetime.strptime(inp[t], "%d.%m.%y").date()
+            lst.append(a)
+
+    return lst
+ds = get_days(cur_row)
 # Uhrzeit: Uhrzeit
+def get_time(inp) -> time:
+    begin, end = inp['Uhrzeit'].split('-')
+    begin = datetime.strptime(begin.strip(), "%H:%M").time()
+    end = datetime.strptime(end.strip(), "%H:%M").time()
+
+    return begin, end
+time_ = get_time(cur_row)
 # Description: Kurs
+desc = cur_row['Kurs'].replace(' - ', '-')
+
+print(a.shape)
