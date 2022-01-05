@@ -43,13 +43,28 @@ a = concat_all(tables2)
 
 assert a.equals(df)
 
-# second frame: set same column names (necessary?)
 
-# concat 2 frames
-# a = pd.concat([tables[0], tmp])
+def update_date_str(inp: str) -> str:
+    if type(inp) == str and inp.count('.') == 3:
+        return '.'.join(inp.split('.')[:-1])
+
+    return inp
 
 
-print(tables)
+# remove artifact when stitching the frames
+a['Termin 1'] = a['Termin 1'].map(update_date_str)
+
+# drop columns that are not used
+a = a.drop(['Öffn.', 'Tag', 'Datum'], axis=1)
+
+print(a.shape)
+
+# drow rows
+# a = a.dropna(subset=['Trainer 1'])
+# a = a.dropna(subset=['Termin 1'])
+a = a[a["Kurs"].str.contains("XXX|!!!|---") is False]
+
+print(a.shape)
 
 # Idee: nur mit puren Funktionen arbeiten
 #  - das ist hier zwar nicht sehr sinnig, da die Dataframes immer wieder kopiert werden
