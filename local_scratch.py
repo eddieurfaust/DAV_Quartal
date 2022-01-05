@@ -62,20 +62,11 @@ print(a.shape)
 # drow rows
 # a = a.dropna(subset=['Trainer 1'])
 # a = a.dropna(subset=['Termin 1'])
-a = a[a["Kurs"].str.contains("XXX|!!!|---") is False]
+a = a[a["Kurs"].str.contains("XXX|!!!|---") == False]
 
 print(a.shape)
 
-# Idee: nur mit puren Funktionen arbeiten
-#  - das ist hier zwar nicht sehr sinnig, da die Dataframes immer wieder kopiert werden
-
-# tables zu einem sauberen großen Frame zusammen ziehen
-#  - f([table, table]) -> table ()
-#    - soll 2 tables zusammen führen und dabei den Header der ersten übernehmen
-#    - Annahme: erster table hat den header
-
-# filtern/aussortieren: Spalten Öffn., Tag, Datun können komplett raus, Zeilen mit XXX oder !!! im Kurs können auch raus
-
+### hiermit kann man nun arbeiten
 # Trainer: Trainer 1
 # Backup: Trainer 2
 # Datum: Termin 1..4
