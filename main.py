@@ -162,7 +162,8 @@ def create_google_cal_file(inp: Path, out: Path = 'expected_out.csv') -> None:
 
 
 if __name__ == '__main__':
-    a = Path(r'.').glob(r'*.xlsx')
-    assert len(a) == 1
+    a = Path(r'./Q3/Vorplan').glob(r'*.xlsx')
+    a = [x for x in a if not str(x.name).startswith('~')]
+    assert len(a) == 1, f'files found: {a}'
 
     create_google_cal_file(a[0], Path('out.csv'))
