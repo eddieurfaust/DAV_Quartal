@@ -10,6 +10,9 @@ from dateutil import parser
 from icalendar import Calendar, Event
 from tqdm import tqdm
 
+from Logger import logger as log
+
+
 LOCATION = 'GriffReich - Kletterzentrum des DAV Hannover, Peiner Str. 28, 30519 Hannover, Deutschland'
 
 
@@ -26,9 +29,11 @@ def read_defaults(toml_path: Path) -> Optional[dict]:
         input_file_name = str(toml_path)
         with open(input_file_name) as toml_file:
             toml_dict = toml.load(toml_file)
+        log.info(f'successfully read defaults file: {toml_path}')
+        log.debug(f'defaults: {toml_path}')
         return toml_dict
     except:
-        pass
+        log.info(f'could not read defaults from {toml_path}')
 
     return None
 
