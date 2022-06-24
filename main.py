@@ -112,6 +112,8 @@ class Worker:
         list_of_trainers = names_only.dropna().to_list()
         list_of_trainers = sorted([n.capitalize() for n in list_of_trainers])
 
+        termine = self.df.iloc[idx][[x for x in self.df.columns if 'Termin' in x]]
+
         sep = '\n •'
         if list_of_trainers:
             return f'[Registered potential instructors:]{sep}{sep.join(list_of_trainers)}'
