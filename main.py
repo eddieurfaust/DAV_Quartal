@@ -112,8 +112,9 @@ class Worker:
         list_of_trainers = names_only.dropna().to_list()
         list_of_trainers = sorted([n.capitalize() for n in list_of_trainers])
 
+        sep = '\n •'
         if list_of_trainers:
-            return f'[Registered potential instructors:] {" | ".join(list_of_trainers)}'
+            return f'[Registered potential instructors:]{sep}{sep.join(list_of_trainers)}'
         else:
             return f'So far no one wants to teach this course.'
 
