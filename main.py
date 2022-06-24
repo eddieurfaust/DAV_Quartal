@@ -5,6 +5,7 @@ from dataclasses import dataclass
 from typing import Tuple, List
 from datetime import datetime
 from dateutil import parser
+from icalendar import Calendar, Event
 from tqdm import tqdm
 
 
@@ -137,25 +138,24 @@ class Worker:
         return all_classes
 
 
-def to_gcal_csv(inp: List[Termin]) -> str:
-    # strftime: https://www.programiz.com/python-programming/datetime/strftime
-    out = 'Subject,Start Date,Start Time,End Time,Description,All Day Event'
-    out += '\n'
+def to_gcal_ical(inp: List[Termin], out_filename: str) -> str:
+    calendar_events: List = []
+    for row in inp:
+        event = Event()
+        event.add('summary', f'🧗 {row.subject}')
+        event.add('dtstart', row.start)
+        event.add('dtend', row.end)
+        event.add('description', row.description)
 
-    for cur_row in inp:
-        row_elems = [
-            cur_row.subject,  # Subject
-            cur_row.start.strftime('%m/%d/%Y'),  # Start Date
-            cur_row.start.strftime('%I:%M %p'),  # Start Time
-            cur_row.end.strftime('%I:%M %p'),  # End Time
-            cur_row.description,  # Description
-            'False'  # All Day Event
-        ]
+        calendar_events.append(event)
 
-        out += ','.join(row_elems)
-        out += '\n'
+    cal = Calendar()
+    [cal.add_component(event) for event in calendar_events]
 
-    return out
+    with open(str(f'{out_filename}.ics'), 'wb') as f:
+        f.write(cal.to_ical())
+
+    print(f'wrote {len(inp)} classes')
 
 
 def create_google_cal_file(inp: Path, out: Path = 'expected_out.csv') -> None:
@@ -167,12 +167,7 @@ def create_google_cal_file(inp: Path, out: Path = 'expected_out.csv') -> None:
     # MAYBE FILTER HERE
     # all_classes = [c for c in all_classes if 'Frank' in c.description]
 
-    csv = to_gcal_csv(all_classes)
-
-    with open(out, 'wt') as f:
-        f.write(csv)
-
-    print(f'wrote {len(all_classes)} classes')
+    to_gcal_ical(all_classes, out)
 
 
 if __name__ == '__main__':
@@ -180,4 +175,4 @@ if __name__ == '__main__':
     a = [x for x in a if not str(x.name).startswith('~')]
     assert len(a) == 1, f'files found: {a}'
 
-    create_google_cal_file(a[0], Path('out.csv'))
+    create_google_cal_file(a[0], Path('out'))
