@@ -22,15 +22,14 @@ class Termin:
 
 
 def get_parameter(inp: str):
-    if inp == 'skip_lines':
-        return 1
-    if inp == 'delete_courses_named':
-        return ['!!! kein Kursbetrieb !!!', 'XXX', '---']
-    if inp == 'bullet_point':
-        return ' • '
-    if inp == 'highlight_chars':
-        return '<-'
-    return None
+    defaults = {
+        'skip_lines': 1,
+        'delete_courses_named': ['!!! kein Kursbetrieb !!!', 'XXX', '---'],
+        'bullet_point': ' • ',
+        'highlight_chars': '<-',
+    }
+
+    return defaults.get(inp)
 
 
 class Worker:
