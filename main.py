@@ -1,14 +1,14 @@
 import pandas as pd
 
 from path import Path
+import toml
 from dataclasses import dataclass
 import re
-from typing import Tuple, List
+from typing import Tuple, List, Optional
 from datetime import datetime
 from dateutil import parser
 from icalendar import Calendar, Event
 from tqdm import tqdm
-
 
 LOCATION = 'GriffReich - Kletterzentrum des DAV Hannover, Peiner Str. 28, 30519 Hannover, Deutschland'
 
@@ -21,6 +21,21 @@ class Termin:
     description: str
 
 
+def read_defaults(toml_path: Path) -> Optional[dict]:
+    try:
+        input_file_name = str(toml_path)
+        with open(input_file_name) as toml_file:
+            toml_dict = toml.load(toml_file)
+        return toml_dict
+    except:
+        pass
+
+    return None
+
+
+TOML_DICT = read_defaults(Path(r'defaults.toml'))
+
+
 def get_parameter(inp: str):
     defaults = {
         'skip_lines': 1,
@@ -28,6 +43,9 @@ def get_parameter(inp: str):
         'bullet_point': ' • ',
         'highlight_chars': '<-',
     }
+
+    if TOML_DICT is not None and TOML_DICT.get(inp) is not None:
+        return TOML_DICT.get(inp)
 
     return defaults.get(inp)
 
@@ -68,7 +86,8 @@ class Worker:
         return self
 
     def _clean_dataframe(self):
-        # self._drop(cols=['Unnamed: 0', 'None.7'], rows=[0, 1])  # cols würden auch durch self.drop_na() weg fallen?
+        # drop (empty) dummy cols Name 01, Name 02, ..., Name 20
+        # drop first x rows
         self._drop(cols=[f'Name {x:02}' for x in range(21)], rows=list(range(1 + get_parameter('skip_lines'))))
         self._drop_na()
         self._set_column_headers()
@@ -86,6 +105,7 @@ class Worker:
         :param idx: index of the dataframe managed by the class
         :return: list containing zero to four courses which are extracted from one row
         """
+
         def get_start_end_datetime(date_: datetime.date, start_: datetime.time, end_: datetime.time) -> Tuple:
             ret_start = datetime.combine(date_.date(), parser.parse(start_).time())
             ret_end = datetime.combine(date_.date(), parser.parse(end_).time())

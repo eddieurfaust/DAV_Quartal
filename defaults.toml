@@ -1,0 +1,4 @@
+skip_lines = 1
+delete_courses_named = [ "!!! kein Kursbetrieb !!!", "XXX", "---",]
+bullet_point = " • "
+highlight_chars = "<-"
