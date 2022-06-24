@@ -2,11 +2,15 @@ import pandas as pd
 
 from path import Path
 from dataclasses import dataclass
+import re
 from typing import Tuple, List
 from datetime import datetime
 from dateutil import parser
 from icalendar import Calendar, Event
 from tqdm import tqdm
+
+
+LOCATION = 'GriffReich - Kletterzentrum des DAV Hannover, Peiner Str. 28, 30519 Hannover, Deutschland'
 
 
 @dataclass(frozen=True)
@@ -22,6 +26,10 @@ def get_parameter(inp: str):
         return 1
     if inp == 'delete_courses_named':
         return ['!!! kein Kursbetrieb !!!', 'XXX', '---']
+    if inp == 'bullet_point':
+        return ' • '
+    if inp == 'highlight_chars':
+        return '<-'
     return None
 
 
@@ -43,7 +51,7 @@ class Worker:
 
         return self
 
-    def _replace_NaN_with_None(self):
+    def _replace_nan_with_none(self):
         self.df.where(pd.notnull(self.df), None, inplace=True)
 
         return self
@@ -62,10 +70,10 @@ class Worker:
 
     def _clean_dataframe(self):
         # self._drop(cols=['Unnamed: 0', 'None.7'], rows=[0, 1])  # cols würden auch durch self.drop_na() weg fallen?
-        self._drop(cols=[f'Name {x:02}' for x in range(21)], rows=range(1 + get_parameter('skip_lines')))
+        self._drop(cols=[f'Name {x:02}' for x in range(21)], rows=list(range(1 + get_parameter('skip_lines'))))
         self._drop_na()
         self._set_column_headers()
-        self._replace_NaN_with_None()
+        self._replace_nan_with_none()
         self._remove_rows_by_substring(get_parameter('delete_courses_named'))
         self._drop_na()
 
@@ -112,13 +120,25 @@ class Worker:
         list_of_trainers = names_only.dropna().to_list()
         list_of_trainers = sorted([n.capitalize() for n in list_of_trainers])
 
-        termine = self.df.iloc[idx][[x for x in self.df.columns if 'Termin' in x]]
-
-        sep = '\n •'
+        ret = ''
+        sep = get_parameter('bullet_point')
+        break_sep = f'\n{sep}'
         if list_of_trainers:
-            return f'[Registered potential instructors:]{sep}{sep.join(list_of_trainers)}'
+            ret += f'[Registered potential instructors:]\n{sep}{break_sep.join(list_of_trainers)}'
         else:
-            return f'So far no one wants to teach this course.'
+            ret += f'So far no one wants to teach this course.'
+
+        termin_string = '\n\n[Termine:]'
+        termine = self.df.iloc[idx][[x for x in self.df.columns if 'Termin' in x]]
+        for name, dt in zip(termine.index.to_list(), termine.to_list()):
+            if dt is None:
+                continue
+
+            termin_string += f'\n{sep}{name} - {dt.date()}'
+
+        ret += termin_string
+
+        return ret
 
     def get_list_of_class_tuples(self):
         all_classes: [List[Termin]] = []
@@ -143,12 +163,29 @@ class Worker:
 
 def to_gcal_ical(inp: List[Termin], out_filename: str) -> str:
     calendar_events: List = []
+
+    def highlight_termin(row) -> str:
+        found = re.search('Termin \d', row.subject)
+        if not found:
+            return row.description
+
+        out = ''
+        lines = row.description.split('\n')
+
+        for line in lines:
+            if found.group(0) in line:
+                line += ' ' + get_parameter('highlight_chars')
+            out += line + '\n'
+
+        return out.rstrip('\n')
+
     for row in inp:
         event = Event()
         event.add('summary', f'🧗 {row.subject}')
         event.add('dtstart', row.start)
         event.add('dtend', row.end)
-        event.add('description', row.description)
+        event.add('location', LOCATION)
+        event.add('description', highlight_termin(row))  # returns potentially altered `row.description`
 
         calendar_events.append(event)
 
