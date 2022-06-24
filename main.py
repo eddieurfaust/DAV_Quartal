@@ -16,13 +16,21 @@ class Termin:
     description: str
 
 
+def get_parameter(inp: str):
+    if inp == 'skip_lines':
+        return 1
+    if inp == 'delete_courses_named':
+        return ['!!! kein Kursbetrieb !!!', 'XXX', '---']
+    return None
+
+
 class Worker:
     def __init__(self, df_: pd.DataFrame):
         self.df = df_
         self._clean_dataframe()
 
     def _drop(self, cols: list, rows: list):
-        self.df.drop(cols, axis=1, inplace=True)
+        self.df.drop(cols, axis=1, inplace=True, errors='ignore')
         self.df.drop(rows, axis=0, inplace=True)
 
         return self
@@ -52,10 +60,12 @@ class Worker:
         return self
 
     def _clean_dataframe(self):
-        self._drop(cols=['Unnamed: 0', 'None.7'], rows=[0, 1])  # cols würden auch durch self.drop_na() weg fallen?
+        # self._drop(cols=['Unnamed: 0', 'None.7'], rows=[0, 1])  # cols würden auch durch self.drop_na() weg fallen?
+        self._drop(cols=[f'Name {x:02}' for x in range(21)], rows=range(1 + get_parameter('skip_lines')))
+        self._drop_na()
         self._set_column_headers()
         self._replace_NaN_with_None()
-        self._remove_rows_by_substring(['!!! kein Kursbetrieb !!!', 'XXX', '---'])
+        self._remove_rows_by_substring(get_parameter('delete_courses_named'))
         self._drop_na()
 
         self.df.reset_index(drop=True, inplace=True)
@@ -83,7 +93,7 @@ class Worker:
             if cur_date is None:
                 continue
 
-            start, end = self.df.loc[idx]['Uhrzeit'].split(' - ')  # again, datetime objects, now we only need .time()
+            start, end = self.df.loc[idx]['Zeit'].split(' - ')  # again, datetime objects, now we only need .time()
 
             start_datetime, end_datetime = get_start_end_datetime(cur_date, start, end)
 
@@ -96,11 +106,15 @@ class Worker:
 
     def _get_description(self, idx: pd.Index) -> str:
         names_only = self.df.loc[idx].drop(
-            ['Öffn.', 'Tag', 'Datum', 'Kurs', 'Uhrzeit', 'Termin 1', 'Termin 2', 'Termin 3', 'Termin 4'])
+            ['Öffn.', 'Tag', 'Datum', 'Kurs', 'Uhrzeit', 'Zeit', 'Termin 1', 'Termin 2', 'Termin 3', 'Termin 4'],
+            errors='ignore')
         list_of_trainers = names_only.dropna().to_list()
         list_of_trainers = sorted([n.capitalize() for n in list_of_trainers])
 
-        return f'[Potentially assigned trainers] {" | ".join(list_of_trainers)}'
+        if list_of_trainers:
+            return f'[Registered potential instructors:] {" | ".join(list_of_trainers)}'
+        else:
+            return f'So far no one wants to teach this course.'
 
     def get_list_of_class_tuples(self):
         all_classes: [List[Termin]] = []
