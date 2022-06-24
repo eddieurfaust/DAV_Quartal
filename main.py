@@ -210,9 +210,14 @@ def create_google_cal_file(inp: Path, out: Path = 'expected_out.csv') -> None:
     to_gcal_ical(all_classes, out)
 
 
-if __name__ == '__main__':
-    a = Path(r'./Q3/Vorplan').glob(r'*.xlsx')
-    a = [x for x in a if not str(x.name).startswith('~')]
-    assert len(a) == 1, f'files found: {a}'
+def vorplan_worker(path: Path):
+    files = path.glob(r'*.xlsx')
+    files = [x for x in files if not str(x.name).startswith('~')]
 
-    create_google_cal_file(a[0], Path('out'))
+    assert len(files) == 1, f'files found: {files}'
+
+    create_google_cal_file(files[0], Path('out'))
+
+
+if __name__ == '__main__':
+    vorplan_worker(Path(r'./Q3/Vorplan'))
