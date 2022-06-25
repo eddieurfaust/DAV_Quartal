@@ -2,6 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
+logger.setLevel(100)
 
 # create file handler which logs even debug messages
 fh = logging.FileHandler('DAV_Quartal_2_ical.log')

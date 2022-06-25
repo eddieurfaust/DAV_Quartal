@@ -1,0 +1,1331 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220702T103000
+DTEND;VALUE=DATE-TIME:20220702T133000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-02 <-\n • Termin 2 - 2022-07-03
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220703T103000
+DTEND;VALUE=DATE-TIME:20220703T133000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-02\n • Termin 2 - 2022-07-03 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220702T140000
+DTEND;VALUE=DATE-TIME:20220702T170000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-02 <-\n • Termin 2 - 2022-07-03
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220703T140000
+DTEND;VALUE=DATE-TIME:20220703T170000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-02\n • Termin 2 - 2022-07-03 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Schnupperklettern
+DTSTART;VALUE=DATE-TIME:20220702T173000
+DTEND;VALUE=DATE-TIME:20220702T190000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-02
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220703T100000
+DTEND;VALUE=DATE-TIME:20220703T120000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-03
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220703T120000
+DTEND;VALUE=DATE-TIME:20220703T140000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-03
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Vorstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220704T173000
+DTEND;VALUE=DATE-TIME:20220704T213000
+DESCRIPTION:[Registered potential instructors:]\n • Frank (hospi?)\n •
+  Kerstin (hospi)\n • Marco\n • Micha\n\n[Termine:]\n • Termin 1 - 20
+ 22-07-04 <-\n • Termin 2 - 2022-07-11
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Vorstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220711T173000
+DTEND;VALUE=DATE-TIME:20220711T213000
+DESCRIPTION:[Registered potential instructors:]\n • Frank (hospi?)\n •
+  Kerstin (hospi)\n • Marco\n • Micha\n\n[Termine:]\n • Termin 1 - 20
+ 22-07-04\n • Termin 2 - 2022-07-11 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220705T190000
+DTEND;VALUE=DATE-TIME:20220705T210000
+DESCRIPTION:[Registered potential instructors:]\n • Stefan g.\n\n[Termin
+ e:]\n • Termin 1 - 2022-07-05
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Aufbau-Kurs für Einsteiger - Termin 1
+DTSTART;VALUE=DATE-TIME:20220706T183000
+DTEND;VALUE=DATE-TIME:20220706T213000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-06 <-\n • Termin 2 - 2022-07-13\n • Termin 3 - 2022
+ -07-20\n • Termin 4 - 2022-07-27
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Aufbau-Kurs für Einsteiger - Termin 2
+DTSTART;VALUE=DATE-TIME:20220713T183000
+DTEND;VALUE=DATE-TIME:20220713T213000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-06\n • Termin 2 - 2022-07-13 <-\n • Termin 3 - 2022
+ -07-20\n • Termin 4 - 2022-07-27
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Aufbau-Kurs für Einsteiger - Termin 3
+DTSTART;VALUE=DATE-TIME:20220720T183000
+DTEND;VALUE=DATE-TIME:20220720T213000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-06\n • Termin 2 - 2022-07-13\n • Termin 3 - 2022-07
+ -20 <-\n • Termin 4 - 2022-07-27
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Aufbau-Kurs für Einsteiger - Termin 4
+DTSTART;VALUE=DATE-TIME:20220727T183000
+DTEND;VALUE=DATE-TIME:20220727T213000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-06\n • Termin 2 - 2022-07-13\n • Termin 3 - 2022-07
+ -20\n • Termin 4 - 2022-07-27 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220707T100000
+DTEND;VALUE=DATE-TIME:20220707T120000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-07
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Workshop: Eindrehen
+DTSTART;VALUE=DATE-TIME:20220708T173000
+DTEND;VALUE=DATE-TIME:20220708T193000
+DESCRIPTION:[Registered potential instructors:]\n • Andre\n\n[Termine:]\
+ n • Termin 1 - 2022-07-08
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220709T103000
+DTEND;VALUE=DATE-TIME:20220709T133000
+DESCRIPTION:[Registered potential instructors:]\n • Andre\n\n[Termine:]\
+ n • Termin 1 - 2022-07-09 <-\n • Termin 2 - 2022-07-10
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220710T103000
+DTEND;VALUE=DATE-TIME:20220710T133000
+DESCRIPTION:[Registered potential instructors:]\n • Andre\n\n[Termine:]\
+ n • Termin 1 - 2022-07-09\n • Termin 2 - 2022-07-10 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220709T140000
+DTEND;VALUE=DATE-TIME:20220709T170000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-09 <-\n • Termin 2 - 2022-07-10
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220710T140000
+DTEND;VALUE=DATE-TIME:20220710T170000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-09\n • Termin 2 - 2022-07-10 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220710T100000
+DTEND;VALUE=DATE-TIME:20220710T120000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-10
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220710T120000
+DTEND;VALUE=DATE-TIME:20220710T140000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-10
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220712T190000
+DTEND;VALUE=DATE-TIME:20220712T210000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-07-12
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220714T100000
+DTEND;VALUE=DATE-TIME:20220714T120000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-14
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Workshop: Drüber & Drauf
+DTSTART;VALUE=DATE-TIME:20220715T173000
+DTEND;VALUE=DATE-TIME:20220715T193000
+DESCRIPTION:[Registered potential instructors:]\n • Micha\n\n[Termine:]\
+ n • Termin 1 - 2022-07-15
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220716T103000
+DTEND;VALUE=DATE-TIME:20220716T133000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-07-16 <-\n • Termin 2 - 2022-07-17
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220717T103000
+DTEND;VALUE=DATE-TIME:20220717T133000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-07-16\n • Termin 2 - 2022-07-17 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220716T140000
+DTEND;VALUE=DATE-TIME:20220716T170000
+DESCRIPTION:[Registered potential instructors:]\n • Marco\n • Sarah\n\
+ n[Termine:]\n • Termin 1 - 2022-07-16 <-\n • Termin 2 - 2022-07-17
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220717T140000
+DTEND;VALUE=DATE-TIME:20220717T170000
+DESCRIPTION:[Registered potential instructors:]\n • Marco\n • Sarah\n\
+ n[Termine:]\n • Termin 1 - 2022-07-16\n • Termin 2 - 2022-07-17 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Schnupperklettern
+DTSTART;VALUE=DATE-TIME:20220716T173000
+DTEND;VALUE=DATE-TIME:20220716T190000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-16
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220717T100000
+DTEND;VALUE=DATE-TIME:20220717T120000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-17
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220717T120000
+DTEND;VALUE=DATE-TIME:20220717T140000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-17
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Workshop: Präzise treten
+DTSTART;VALUE=DATE-TIME:20220718T173000
+DTEND;VALUE=DATE-TIME:20220718T193000
+DESCRIPTION:[Registered potential instructors:]\n • Micha\n\n[Termine:]\
+ n • Termin 1 - 2022-07-18
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220719T190000
+DTEND;VALUE=DATE-TIME:20220719T210000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-07-19
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220721T100000
+DTEND;VALUE=DATE-TIME:20220721T120000
+DESCRIPTION:[Registered potential instructors:]\n • Leonard stöckl\n\n[
+ Termine:]\n • Termin 1 - 2022-07-21
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220722T180000
+DTEND;VALUE=DATE-TIME:20220722T210000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-07-22 <-\n • Termin 2 - 2022-07-29
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220729T180000
+DTEND;VALUE=DATE-TIME:20220729T210000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-07-22\n • Termin 2 - 2022-07-29 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Vorstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220723T103000
+DTEND;VALUE=DATE-TIME:20220723T143000
+DESCRIPTION:[Registered potential instructors:]\n • ? hospitation heidi\
+ n • Manuela\n • Marco\n • Micha\n\n[Termine:]\n • Termin 1 - 2022-
+ 07-23 <-\n • Termin 2 - 2022-07-24
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Vorstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220724T103000
+DTEND;VALUE=DATE-TIME:20220724T143000
+DESCRIPTION:[Registered potential instructors:]\n • ? hospitation heidi\
+ n • Manuela\n • Marco\n • Micha\n\n[Termine:]\n • Termin 1 - 2022-
+ 07-23\n • Termin 2 - 2022-07-24 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Schnupperklettern
+DTSTART;VALUE=DATE-TIME:20220723T150000
+DTEND;VALUE=DATE-TIME:20220723T163000
+DESCRIPTION:[Registered potential instructors:]\n • ? heidi\n • Manuel
+ a\n\n[Termine:]\n • Termin 1 - 2022-07-23
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220724T100000
+DTEND;VALUE=DATE-TIME:20220724T120000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-24
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220724T120000
+DTEND;VALUE=DATE-TIME:20220724T140000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-24
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220726T190000
+DTEND;VALUE=DATE-TIME:20220726T210000
+DESCRIPTION:[Registered potential instructors:]\n • Leonard stöckl\n 
+ • Marco\n • Sarah\n\n[Termine:]\n • Termin 1 - 2022-07-26
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220728T100000
+DTEND;VALUE=DATE-TIME:20220728T120000
+DESCRIPTION:[Registered potential instructors:]\n • Leonard stöckl\n 
+ • Manuela\n\n[Termine:]\n • Termin 1 - 2022-07-28
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220730T140000
+DTEND;VALUE=DATE-TIME:20220730T170000
+DESCRIPTION:[Registered potential instructors:]\n • ?heidi\n • Manuela
+ \n • Sarah\n\n[Termine:]\n • Termin 1 - 2022-07-30 <-\n • Termin 2 -
+  2022-07-31
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220731T140000
+DTEND;VALUE=DATE-TIME:20220731T170000
+DESCRIPTION:[Registered potential instructors:]\n • ?heidi\n • Manuela
+ \n • Sarah\n\n[Termine:]\n • Termin 1 - 2022-07-30\n • Termin 2 - 20
+ 22-07-31 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Workshop: Richtig Sichern - Termin 1
+DTSTART;VALUE=DATE-TIME:20220730T173000
+DTEND;VALUE=DATE-TIME:20220730T193000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-30 <-\n • Termin 2 - 2022-07-31
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Workshop: Richtig Sichern - Termin 2
+DTSTART;VALUE=DATE-TIME:20220731T173000
+DTEND;VALUE=DATE-TIME:20220731T193000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-07-30\n • Termin 2 - 2022-07-31 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Aufbau-Kurs für Einsteiger - Termin 1
+DTSTART;VALUE=DATE-TIME:20220801T173000
+DTEND;VALUE=DATE-TIME:20220801T193000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-01 <-\n • Termin 2 - 2022-08-08\n • Termin 3 - 2022
+ -08-15\n • Termin 4 - 2022-08-22
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Aufbau-Kurs für Einsteiger - Termin 2
+DTSTART;VALUE=DATE-TIME:20220808T173000
+DTEND;VALUE=DATE-TIME:20220808T193000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-01\n • Termin 2 - 2022-08-08 <-\n • Termin 3 - 2022
+ -08-15\n • Termin 4 - 2022-08-22
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Aufbau-Kurs für Einsteiger - Termin 3
+DTSTART;VALUE=DATE-TIME:20220815T173000
+DTEND;VALUE=DATE-TIME:20220815T193000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-01\n • Termin 2 - 2022-08-08\n • Termin 3 - 2022-08
+ -15 <-\n • Termin 4 - 2022-08-22
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Aufbau-Kurs für Einsteiger - Termin 4
+DTSTART;VALUE=DATE-TIME:20220822T173000
+DTEND;VALUE=DATE-TIME:20220822T193000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-01\n • Termin 2 - 2022-08-08\n • Termin 3 - 2022-08
+ -15\n • Termin 4 - 2022-08-22 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220802T190000
+DTEND;VALUE=DATE-TIME:20220802T210000
+DESCRIPTION:[Registered potential instructors:]\n • Leonard stöckl\n 
+ • Sarah\n\n[Termine:]\n • Termin 1 - 2022-08-02
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220803T173000
+DTEND;VALUE=DATE-TIME:20220803T203000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-03 <-\n • Termin 2 - 2022-08-10
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220810T173000
+DTEND;VALUE=DATE-TIME:20220810T203000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-03\n • Termin 2 - 2022-08-10 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220804T100000
+DTEND;VALUE=DATE-TIME:20220804T120000
+DESCRIPTION:[Registered potential instructors:]\n • Leonard stöckl\n\n[
+ Termine:]\n • Termin 1 - 2022-08-04
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Schnupperklettern
+DTSTART;VALUE=DATE-TIME:20220805T183000
+DTEND;VALUE=DATE-TIME:20220805T200000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-05
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220806T103000
+DTEND;VALUE=DATE-TIME:20220806T133000
+DESCRIPTION:[Registered potential instructors:]\n • Kerstin\n • Stefan
+  g.\n\n[Termine:]\n • Termin 1 - 2022-08-06 <-\n • Termin 2 - 2022-08-
+ 07
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220807T103000
+DTEND;VALUE=DATE-TIME:20220807T133000
+DESCRIPTION:[Registered potential instructors:]\n • Kerstin\n • Stefan
+  g.\n\n[Termine:]\n • Termin 1 - 2022-08-06\n • Termin 2 - 2022-08-07 
+ <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220806T143000
+DTEND;VALUE=DATE-TIME:20220806T173000
+DESCRIPTION:[Registered potential instructors:]\n • Marco\n\n[Termine:]\
+ n • Termin 1 - 2022-08-06 <-\n • Termin 2 - 2022-08-07
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220807T143000
+DTEND;VALUE=DATE-TIME:20220807T173000
+DESCRIPTION:[Registered potential instructors:]\n • Marco\n\n[Termine:]\
+ n • Termin 1 - 2022-08-06\n • Termin 2 - 2022-08-07 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220807T100000
+DTEND;VALUE=DATE-TIME:20220807T120000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-07
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220807T120000
+DTEND;VALUE=DATE-TIME:20220807T140000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-07
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220809T190000
+DTEND;VALUE=DATE-TIME:20220809T210000
+DESCRIPTION:[Registered potential instructors:]\n • Frank\n • Kerstin\
+ n\n[Termine:]\n • Termin 1 - 2022-08-09
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220811T100000
+DTEND;VALUE=DATE-TIME:20220811T120000
+DESCRIPTION:[Registered potential instructors:]\n • Manuela\n\n[Termine:
+ ]\n • Termin 1 - 2022-08-11
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Aufbau-Kurs für Fortgesch. - Termin 1
+DTSTART;VALUE=DATE-TIME:20220812T173000
+DTEND;VALUE=DATE-TIME:20220812T193000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-12 <-\n • Termin 2 - 2022-08-26\n • Termin 3 - 2022
+ -09-05\n • Termin 4 - 2022-09-07
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Aufbau-Kurs für Fortgesch. - Termin 2
+DTSTART;VALUE=DATE-TIME:20220826T173000
+DTEND;VALUE=DATE-TIME:20220826T193000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-12\n • Termin 2 - 2022-08-26 <-\n • Termin 3 - 2022
+ -09-05\n • Termin 4 - 2022-09-07
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Aufbau-Kurs für Fortgesch. - Termin 3
+DTSTART;VALUE=DATE-TIME:20220905T173000
+DTEND;VALUE=DATE-TIME:20220905T193000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-12\n • Termin 2 - 2022-08-26\n • Termin 3 - 2022-09
+ -05 <-\n • Termin 4 - 2022-09-07
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Aufbau-Kurs für Fortgesch. - Termin 4
+DTSTART;VALUE=DATE-TIME:20220907T173000
+DTEND;VALUE=DATE-TIME:20220907T193000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-12\n • Termin 2 - 2022-08-26\n • Termin 3 - 2022-09
+ -05\n • Termin 4 - 2022-09-07 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220813T103000
+DTEND;VALUE=DATE-TIME:20220813T133000
+DESCRIPTION:[Registered potential instructors:]\n • ?heidi\n • Manuela
+ \n\n[Termine:]\n • Termin 1 - 2022-08-13 <-\n • Termin 2 - 2022-08-14
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220814T103000
+DTEND;VALUE=DATE-TIME:20220814T133000
+DESCRIPTION:[Registered potential instructors:]\n • ?heidi\n • Manuela
+ \n\n[Termine:]\n • Termin 1 - 2022-08-13\n • Termin 2 - 2022-08-14 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220813T140000
+DTEND;VALUE=DATE-TIME:20220813T170000
+DESCRIPTION:[Registered potential instructors:]\n • ?heidi\n • Manuela
+ \n\n[Termine:]\n • Termin 1 - 2022-08-13 <-\n • Termin 2 - 2022-08-14
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220814T140000
+DTEND;VALUE=DATE-TIME:20220814T170000
+DESCRIPTION:[Registered potential instructors:]\n • ?heidi\n • Manuela
+ \n\n[Termine:]\n • Termin 1 - 2022-08-13\n • Termin 2 - 2022-08-14 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Workshop: Eindrehen
+DTSTART;VALUE=DATE-TIME:20220813T173000
+DTEND;VALUE=DATE-TIME:20220813T193000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-13
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220814T100000
+DTEND;VALUE=DATE-TIME:20220814T120000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-14
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220814T120000
+DTEND;VALUE=DATE-TIME:20220814T140000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-14
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220816T190000
+DTEND;VALUE=DATE-TIME:20220816T210000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-08-16
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Vorstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220817T173000
+DTEND;VALUE=DATE-TIME:20220817T213000
+DESCRIPTION:[Registered potential instructors:]\n • Frank\n\n[Termine:]\
+ n • Termin 1 - 2022-08-17 <-\n • Termin 2 - 2022-08-19
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Vorstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220819T173000
+DTEND;VALUE=DATE-TIME:20220819T213000
+DESCRIPTION:[Registered potential instructors:]\n • Frank\n\n[Termine:]\
+ n • Termin 1 - 2022-08-17\n • Termin 2 - 2022-08-19 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220818T100000
+DTEND;VALUE=DATE-TIME:20220818T120000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-18
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220820T103000
+DTEND;VALUE=DATE-TIME:20220820T133000
+DESCRIPTION:[Registered potential instructors:]\n • Frank\n\n[Termine:]\
+ n • Termin 1 - 2022-08-20 <-\n • Termin 2 - 2022-08-21
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220821T103000
+DTEND;VALUE=DATE-TIME:20220821T133000
+DESCRIPTION:[Registered potential instructors:]\n • Frank\n\n[Termine:]\
+ n • Termin 1 - 2022-08-20\n • Termin 2 - 2022-08-21 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220820T133000
+DTEND;VALUE=DATE-TIME:20220820T163000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-20 <-\n • Termin 2 - 2022-08-21
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220821T133000
+DTEND;VALUE=DATE-TIME:20220821T163000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-20\n • Termin 2 - 2022-08-21 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Workshop: Präzise treten
+DTSTART;VALUE=DATE-TIME:20220820T173000
+DTEND;VALUE=DATE-TIME:20220820T193000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-20
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220821T100000
+DTEND;VALUE=DATE-TIME:20220821T120000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-21
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220821T120000
+DTEND;VALUE=DATE-TIME:20220821T140000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-21
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220823T190000
+DTEND;VALUE=DATE-TIME:20220823T210000
+DESCRIPTION:[Registered potential instructors:]\n • Frank\n\n[Termine:]\
+ n • Termin 1 - 2022-08-23
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Workshop: Drüber & Drauf
+DTSTART;VALUE=DATE-TIME:20220824T173000
+DTEND;VALUE=DATE-TIME:20220824T193000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-24
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220825T100000
+DTEND;VALUE=DATE-TIME:20220825T120000
+DESCRIPTION:[Registered potential instructors:]\n • Manuela\n\n[Termine:
+ ]\n • Termin 1 - 2022-08-25
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220827T103000
+DTEND;VALUE=DATE-TIME:20220827T133000
+DESCRIPTION:[Registered potential instructors:]\n • Manuela\n • Sarah\
+ n\n[Termine:]\n • Termin 1 - 2022-08-27 <-\n • Termin 2 - 2022-08-28
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220828T103000
+DTEND;VALUE=DATE-TIME:20220828T133000
+DESCRIPTION:[Registered potential instructors:]\n • Manuela\n • Sarah\
+ n\n[Termine:]\n • Termin 1 - 2022-08-27\n • Termin 2 - 2022-08-28 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220827T140000
+DTEND;VALUE=DATE-TIME:20220827T170000
+DESCRIPTION:[Registered potential instructors:]\n • Manuela\n • Sarah\
+ n\n[Termine:]\n • Termin 1 - 2022-08-27 <-\n • Termin 2 - 2022-08-28
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220828T140000
+DTEND;VALUE=DATE-TIME:20220828T170000
+DESCRIPTION:[Registered potential instructors:]\n • Manuela\n • Sarah\
+ n\n[Termine:]\n • Termin 1 - 2022-08-27\n • Termin 2 - 2022-08-28 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Schnupperklettern
+DTSTART;VALUE=DATE-TIME:20220827T173000
+DTEND;VALUE=DATE-TIME:20220827T190000
+DESCRIPTION:[Registered potential instructors:]\n • Manuela\n • Sarah\
+ n\n[Termine:]\n • Termin 1 - 2022-08-27
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220828T100000
+DTEND;VALUE=DATE-TIME:20220828T120000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-28
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220828T120000
+DTEND;VALUE=DATE-TIME:20220828T140000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-08-28
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220829T180000
+DTEND;VALUE=DATE-TIME:20220829T210000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-08-29 <-\n • Termin 2 - 2022-08-31
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220831T180000
+DTEND;VALUE=DATE-TIME:20220831T210000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-08-29\n • Termin 2 - 2022-08-31 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220830T190000
+DTEND;VALUE=DATE-TIME:20220830T210000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-08-30
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220901T100000
+DTEND;VALUE=DATE-TIME:20220901T120000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-09-01
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220903T140000
+DTEND;VALUE=DATE-TIME:20220903T170000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-09-03 <-\n • Termin 2 - 2022-09-04
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220904T140000
+DTEND;VALUE=DATE-TIME:20220904T170000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-09-03\n • Termin 2 - 2022-09-04 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Schnupperklettern
+DTSTART;VALUE=DATE-TIME:20220903T173000
+DTEND;VALUE=DATE-TIME:20220903T190000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-09-03
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220904T100000
+DTEND;VALUE=DATE-TIME:20220904T120000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-09-04
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220904T120000
+DTEND;VALUE=DATE-TIME:20220904T140000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-09-04
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220906T190000
+DTEND;VALUE=DATE-TIME:20220906T210000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-09-06
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220908T100000
+DTEND;VALUE=DATE-TIME:20220908T120000
+DESCRIPTION:[Registered potential instructors:]\n • Manuela\n\n[Termine:
+ ]\n • Termin 1 - 2022-09-08
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220909T173000
+DTEND;VALUE=DATE-TIME:20220909T203000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-09-09 <-\n • Termin 2 - 2022-09-16
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220916T173000
+DTEND;VALUE=DATE-TIME:20220916T203000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-09-09\n • Termin 2 - 2022-09-16 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220910T103000
+DTEND;VALUE=DATE-TIME:20220910T133000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-09-10 <-\n • Termin 2 - 2022-09-11
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220911T103000
+DTEND;VALUE=DATE-TIME:20220911T133000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-09-10\n • Termin 2 - 2022-09-11 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Vorstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220910T140000
+DTEND;VALUE=DATE-TIME:20220910T180000
+DESCRIPTION:[Registered potential instructors:]\n • Kerstin\n • Marco\
+ n\n[Termine:]\n • Termin 1 - 2022-09-10 <-\n • Termin 2 - 2022-09-11
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Vorstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220911T140000
+DTEND;VALUE=DATE-TIME:20220911T180000
+DESCRIPTION:[Registered potential instructors:]\n • Kerstin\n • Marco\
+ n\n[Termine:]\n • Termin 1 - 2022-09-10\n • Termin 2 - 2022-09-11 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Schnupperklettern
+DTSTART;VALUE=DATE-TIME:20220910T143000
+DTEND;VALUE=DATE-TIME:20220910T160000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-09-10
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220911T100000
+DTEND;VALUE=DATE-TIME:20220911T120000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-09-11
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220911T120000
+DTEND;VALUE=DATE-TIME:20220911T140000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-09-11
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Aufbau-Kurs für Einsteiger - Termin 1
+DTSTART;VALUE=DATE-TIME:20220912T183000
+DTEND;VALUE=DATE-TIME:20220912T203000
+DESCRIPTION:[Registered potential instructors:]\n • Cornelia\n • Frank
+  (hospi)\n\n[Termine:]\n • Termin 1 - 2022-09-12 <-\n • Termin 2 - 202
+ 2-09-19\n • Termin 3 - 2022-09-26\n • Termin 4 - 2022-10-03
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Aufbau-Kurs für Einsteiger - Termin 2
+DTSTART;VALUE=DATE-TIME:20220919T183000
+DTEND;VALUE=DATE-TIME:20220919T203000
+DESCRIPTION:[Registered potential instructors:]\n • Cornelia\n • Frank
+  (hospi)\n\n[Termine:]\n • Termin 1 - 2022-09-12\n • Termin 2 - 2022-0
+ 9-19 <-\n • Termin 3 - 2022-09-26\n • Termin 4 - 2022-10-03
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Aufbau-Kurs für Einsteiger - Termin 3
+DTSTART;VALUE=DATE-TIME:20220926T183000
+DTEND;VALUE=DATE-TIME:20220926T203000
+DESCRIPTION:[Registered potential instructors:]\n • Cornelia\n • Frank
+  (hospi)\n\n[Termine:]\n • Termin 1 - 2022-09-12\n • Termin 2 - 2022-0
+ 9-19\n • Termin 3 - 2022-09-26 <-\n • Termin 4 - 2022-10-03
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Aufbau-Kurs für Einsteiger - Termin 4
+DTSTART;VALUE=DATE-TIME:20221003T183000
+DTEND;VALUE=DATE-TIME:20221003T203000
+DESCRIPTION:[Registered potential instructors:]\n • Cornelia\n • Frank
+  (hospi)\n\n[Termine:]\n • Termin 1 - 2022-09-12\n • Termin 2 - 2022-0
+ 9-19\n • Termin 3 - 2022-09-26\n • Termin 4 - 2022-10-03 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220913T190000
+DTEND;VALUE=DATE-TIME:20220913T210000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-09-13
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Workshop: Eindrehen
+DTSTART;VALUE=DATE-TIME:20220914T173000
+DTEND;VALUE=DATE-TIME:20220914T193000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-09-14
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220915T100000
+DTEND;VALUE=DATE-TIME:20220915T120000
+DESCRIPTION:[Registered potential instructors:]\n • Heidi\n\n[Termine:]\
+ n • Termin 1 - 2022-09-15
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220917T103000
+DTEND;VALUE=DATE-TIME:20220917T133000
+DESCRIPTION:[Registered potential instructors:]\n • Manuela\n\n[Termine:
+ ]\n • Termin 1 - 2022-09-17 <-\n • Termin 2 - 2022-09-18
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220918T103000
+DTEND;VALUE=DATE-TIME:20220918T133000
+DESCRIPTION:[Registered potential instructors:]\n • Manuela\n\n[Termine:
+ ]\n • Termin 1 - 2022-09-17\n • Termin 2 - 2022-09-18 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220917T140000
+DTEND;VALUE=DATE-TIME:20220917T170000
+DESCRIPTION:[Registered potential instructors:]\n • Manuela\n • Marco\
+ n\n[Termine:]\n • Termin 1 - 2022-09-17 <-\n • Termin 2 - 2022-09-18
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220918T140000
+DTEND;VALUE=DATE-TIME:20220918T170000
+DESCRIPTION:[Registered potential instructors:]\n • Manuela\n • Marco\
+ n\n[Termine:]\n • Termin 1 - 2022-09-17\n • Termin 2 - 2022-09-18 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Schnupperklettern
+DTSTART;VALUE=DATE-TIME:20220917T173000
+DTEND;VALUE=DATE-TIME:20220917T190000
+DESCRIPTION:[Registered potential instructors:]\n • Manuela\n\n[Termine:
+ ]\n • Termin 1 - 2022-09-17
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220918T100000
+DTEND;VALUE=DATE-TIME:20220918T120000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-09-18
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220918T120000
+DTEND;VALUE=DATE-TIME:20220918T140000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-09-18
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220920T190000
+DTEND;VALUE=DATE-TIME:20220920T210000
+DESCRIPTION:[Registered potential instructors:]\n • Marco\n\n[Termine:]\
+ n • Termin 1 - 2022-09-20
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220922T100000
+DTEND;VALUE=DATE-TIME:20220922T120000
+DESCRIPTION:[Registered potential instructors:]\n • Manuela\n\n[Termine:
+ ]\n • Termin 1 - 2022-09-22
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Vorstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220923T173000
+DTEND;VALUE=DATE-TIME:20220923T213000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-09-23 <-\n • Termin 2 - 2022-09-28
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Vorstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220928T173000
+DTEND;VALUE=DATE-TIME:20220928T213000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-09-23\n • Termin 2 - 2022-09-28 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220924T103000
+DTEND;VALUE=DATE-TIME:20220924T133000
+DESCRIPTION:[Registered potential instructors:]\n • Marco\n • Sarah\n\
+ n[Termine:]\n • Termin 1 - 2022-09-24 <-\n • Termin 2 - 2022-09-25
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Einstiegs-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220925T103000
+DTEND;VALUE=DATE-TIME:20220925T133000
+DESCRIPTION:[Registered potential instructors:]\n • Marco\n • Sarah\n\
+ n[Termine:]\n • Termin 1 - 2022-09-24\n • Termin 2 - 2022-09-25 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 1
+DTSTART;VALUE=DATE-TIME:20220924T140000
+DTEND;VALUE=DATE-TIME:20220924T170000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-09-24 <-\n • Termin 2 - 2022-09-25
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Eltern-Kind-Kurs - Termin 2
+DTSTART;VALUE=DATE-TIME:20220925T140000
+DTEND;VALUE=DATE-TIME:20220925T170000
+DESCRIPTION:[Registered potential instructors:]\n • Sarah\n\n[Termine:]\
+ n • Termin 1 - 2022-09-24\n • Termin 2 - 2022-09-25 <-
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Schnupperklettern
+DTSTART;VALUE=DATE-TIME:20220924T173000
+DTEND;VALUE=DATE-TIME:20220924T190000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-09-24
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220925T100000
+DTEND;VALUE=DATE-TIME:20220925T120000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-09-25
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Kletterspaß für Kinder
+DTSTART;VALUE=DATE-TIME:20220925T120000
+DTEND;VALUE=DATE-TIME:20220925T140000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-09-25
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220927T190000
+DTEND;VALUE=DATE-TIME:20220927T210000
+DESCRIPTION:[Registered potential instructors:]\n • Leonard stöckl\n\n[
+ Termine:]\n • Termin 1 - 2022-09-27
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Offener Klettertreff
+DTSTART;VALUE=DATE-TIME:20220929T100000
+DTEND;VALUE=DATE-TIME:20220929T120000
+DESCRIPTION:[Registered potential instructors:]\n • Leonard stöckl\n\n[
+ Termine:]\n • Termin 1 - 2022-09-29
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧗 Schnupperklettern
+DTSTART;VALUE=DATE-TIME:20220930T180000
+DTEND;VALUE=DATE-TIME:20220930T193000
+DESCRIPTION:So far no one wants to teach this course.\n\n[Termine:]\n • 
+ Termin 1 - 2022-09-30
+LOCATION:GriffReich - Kletterzentrum des DAV Hannover\, Peiner Str. 28\, 3
+ 0519 Hannover\, Deutschland
+END:VEVENT
+END:VCALENDAR

@@ -27,10 +27,10 @@ class Termin:
 def read_defaults(toml_path: Path) -> Optional[dict]:
     try:
         input_file_name = str(toml_path)
-        with open(input_file_name) as toml_file:
+        with open(input_file_name, encoding='UTF-8') as toml_file:
             toml_dict = toml.load(toml_file)
         log.info(f'successfully read defaults file: {toml_path}')
-        log.debug(f'defaults: {toml_path}')
+        log.debug(f'defaults: {toml_dict}')
         return toml_dict
     except:
         log.info(f'could not read defaults from {toml_path}')
@@ -50,8 +50,10 @@ def get_parameter(inp: str):
     }
 
     if TOML_DICT is not None and TOML_DICT.get(inp) is not None:
+        log.debug(f'getting from config file: [{inp}] : [{TOML_DICT.get(inp)}]')
         return TOML_DICT.get(inp)
 
+    log.debug(f'getting from build-in defaults: [{inp}] : [{defaults.get(inp)}]')
     return defaults.get(inp)
 
 
@@ -216,13 +218,13 @@ def to_gcal_ical(inp: List[Termin], out_filename: str) -> str:
     cal = Calendar()
     [cal.add_component(event) for event in calendar_events]
 
-    with open(str(f'{out_filename}.ics'), 'wb') as f:
+    with open(str(out_filename), 'wb') as f:
         f.write(cal.to_ical())
 
     print(f'wrote {len(inp)} classes')
 
 
-def create_google_cal_file(inp: Path, out: Path = 'expected_out.csv') -> None:
+def create_google_cal_file(inp: Path, out: Path = 'automatic_out.ics') -> None:
     df = pd.read_excel(str(inp), engine='openpyxl')
     worker = Worker(df)
 
@@ -240,7 +242,7 @@ def vorplan_worker(path: Path):
 
     assert len(files) == 1, f'files found: {files}'
 
-    create_google_cal_file(files[0], Path('out'))
+    create_google_cal_file(files[0], Path('out.ics'))
 
 
 if __name__ == '__main__':
