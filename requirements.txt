@@ -1,4 +1,8 @@
 pandas~=1.1.5
 path~=16.0.0
-tqdm
-openpyxl
+tqdm~=4.62.3
+
+pytest~=6.2.3
+toml~=0.10.2
+python-dateutil~=2.8.1
+icalendar~=4.0.7
