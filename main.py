@@ -4,7 +4,7 @@ from path import Path
 import toml
 from dataclasses import dataclass
 import re
-from typing import Tuple, List, Optional
+from typing import Tuple, List, Optional, Union
 from datetime import datetime
 from dateutil import parser
 from icalendar import Calendar, Event
@@ -24,47 +24,53 @@ class Termin:
     description: str
 
 
-def read_defaults(toml_path: Path) -> Optional[dict]:
-    try:
-        input_file_name = str(toml_path)
-        with open(input_file_name, encoding='UTF-8') as toml_file:
-            toml_dict = toml.load(toml_file)
-        log.info(f'successfully read defaults file: {toml_path}')
-        log.debug(f'defaults: {toml_dict}')
-        return toml_dict
-    except:
-        log.info(f'could not read defaults from {toml_path}')
-
-    return None
-
-
-TOML_DICT = read_defaults(Path(r'defaults.toml'))
-
-
-def get_parameter(inp: str):
-    defaults = {
-        'skip_lines': 1,
-        'delete_courses_named': ['!!! kein Kursbetrieb !!!', 'XXX', '---'],
-        'bullet_point': ' • ',
-        'highlight_chars': '<-',
-    }
-
-    if TOML_DICT is not None and TOML_DICT.get(inp) is not None:
-        log.debug(f'getting from config file: [{inp}] : [{TOML_DICT.get(inp)}]')
-        return TOML_DICT.get(inp)
-
-    log.debug(f'getting from build-in defaults: [{inp}] : [{defaults.get(inp)}]')
-    return defaults.get(inp)
-
-
 class Worker:
-    def __init__(self, df_: pd.DataFrame):
+    def __init__(self, df_: Union[pd.DataFrame, None] = None):
+        self.defaults = {
+            'skip_lines': 1,
+            'delete_courses_named': ['!!! kein Kursbetrieb !!!', 'XXX', '---'],
+            'bullet_point': ' • ',
+            'highlight_chars': '<-',
+        }
+        self.toml_dict = self._load_defaults_toml()
+
         self.df = df_
-        self._clean_dataframe()
+        if self.df is not None:
+            self._clean_dataframe()
+
+    @staticmethod
+    def _load_defaults_toml(toml_path: Path = Path(r'defaults.toml')) -> Optional[dict]:
+        try:
+            input_file_name = str(toml_path)
+            with open(input_file_name, encoding='UTF-8') as toml_file:
+                toml_dict = toml.load(toml_file)
+            log.info(f'successfully read defaults file: {toml_path}')
+            log.debug(f'defaults: {toml_dict}')
+
+            return toml_dict
+        except:
+            log.info(f'could not read defaults from {toml_path}')
+
+        return None
+
+    def get_parameter(self, inp: str):
+        defaults = {
+            'skip_lines': 1,
+            'delete_courses_named': ['!!! kein Kursbetrieb !!!', 'XXX', '---'],
+            'bullet_point': ' • ',
+            'highlight_chars': '<-',
+        }
+
+        if self.toml_dict is not None and self.toml_dict.get(inp) is not None:
+            # log.debug(f'getting from config file: [{inp}] : [{self.toml_dict.get(inp)}]')
+            return self.toml_dict.get(inp)
+
+        # log.debug(f'getting from build-in defaults: [{inp}] : [{defaults.get(inp)}]')
+        return defaults.get(inp)
 
     def _drop(self, cols: list, rows: list):
         self.df.drop(cols, axis=1, inplace=True, errors='ignore')
-        self.df.drop(rows, axis=0, inplace=True)
+        self.df.drop(rows, axis=0, inplace=True, errors='ignore')
 
         return self
 
@@ -95,11 +101,11 @@ class Worker:
     def _clean_dataframe(self):
         # drop (empty) dummy cols Name 01, Name 02, ..., Name 20
         # drop first x rows
-        self._drop(cols=[f'Name {x:02}' for x in range(21)], rows=list(range(1 + get_parameter('skip_lines'))))
+        self._drop(cols=[f'Name {x:02}' for x in range(21)], rows=list(range(1 + self.get_parameter('skip_lines'))))
         self._drop_na()
         self._set_column_headers()
         self._replace_nan_with_none()
-        self._remove_rows_by_substring(get_parameter('delete_courses_named'))
+        self._remove_rows_by_substring(self.get_parameter('delete_courses_named'))
         self._drop_na()
 
         self.df.reset_index(drop=True, inplace=True)
@@ -147,7 +153,7 @@ class Worker:
         list_of_trainers = sorted([n.capitalize() for n in list_of_trainers])
 
         ret = ''
-        sep = get_parameter('bullet_point')
+        sep = self.get_parameter('bullet_point')
         break_sep = f'\n{sep}'
         if list_of_trainers:
             ret += f'[Registered potential instructors:]\n{sep}{break_sep.join(list_of_trainers)}'
@@ -200,7 +206,7 @@ def to_gcal_ical(inp: List[Termin], out_filename: str) -> str:
 
         for line in lines:
             if found.group(0) in line:
-                line += ' ' + get_parameter('highlight_chars')
+                line += ' ' + Worker().get_parameter('highlight_chars')
             out += line + '\n'
 
         return out.rstrip('\n')
