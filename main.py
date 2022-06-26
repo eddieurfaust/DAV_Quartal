@@ -24,22 +24,19 @@ class Termin:
     description: str
 
 
-class Worker:
-    def __init__(self, df_: Union[pd.DataFrame, None] = None):
+class Defaults:
+    def __init__(self, toml_path: Path = Path(r'defaults.toml')):
         self.defaults = {
             'skip_lines': 1,
             'delete_courses_named': ['!!! kein Kursbetrieb !!!', 'XXX', '---'],
             'bullet_point': ' • ',
             'highlight_chars': '<-',
         }
-        self.toml_dict = self._load_defaults_toml()
 
-        self.df = df_
-        if self.df is not None:
-            self._clean_dataframe()
+        self.toml_dict = self._load_defaults_toml(toml_path)
 
     @staticmethod
-    def _load_defaults_toml(toml_path: Path = Path(r'defaults.toml')) -> Optional[dict]:
+    def _load_defaults_toml(toml_path: Path) -> Optional[dict]:
         try:
             input_file_name = str(toml_path)
             with open(input_file_name, encoding='UTF-8') as toml_file:
@@ -67,6 +64,15 @@ class Worker:
 
         # log.debug(f'getting from build-in defaults: [{inp}] : [{defaults.get(inp)}]')
         return defaults.get(inp)
+
+
+class Worker:
+    def __init__(self, df_: Union[pd.DataFrame, None] = None):
+        self.defaults = Defaults()
+
+        self.df = df_
+        if self.df is not None:
+            self._clean_dataframe()
 
     def _drop(self, cols: list, rows: list):
         self.df.drop(cols, axis=1, inplace=True, errors='ignore')
@@ -101,11 +107,11 @@ class Worker:
     def _clean_dataframe(self):
         # drop (empty) dummy cols Name 01, Name 02, ..., Name 20
         # drop first x rows
-        self._drop(cols=[f'Name {x:02}' for x in range(21)], rows=list(range(1 + self.get_parameter('skip_lines'))))
+        self._drop(cols=[f'Name {x:02}' for x in range(21)], rows=list(range(1 + self.defaults.get_parameter('skip_lines'))))
         self._drop_na()
         self._set_column_headers()
         self._replace_nan_with_none()
-        self._remove_rows_by_substring(self.get_parameter('delete_courses_named'))
+        self._remove_rows_by_substring(self.defaults.get_parameter('delete_courses_named'))
         self._drop_na()
 
         self.df.reset_index(drop=True, inplace=True)
@@ -153,7 +159,7 @@ class Worker:
         list_of_trainers = sorted([n.capitalize() for n in list_of_trainers])
 
         ret = ''
-        sep = self.get_parameter('bullet_point')
+        sep = self.defaults.get_parameter('bullet_point')
         break_sep = f'\n{sep}'
         if list_of_trainers:
             ret += f'[Registered potential instructors:]\n{sep}{break_sep.join(list_of_trainers)}'
@@ -204,9 +210,11 @@ def to_gcal_ical(inp: List[Termin], out_filename: str) -> str:
         out = ''
         lines = row.description.split('\n')
 
+        highlight_chars = Defaults().get_parameter('highlight_chars')
+
         for line in lines:
             if found.group(0) in line:
-                line += ' ' + Worker().get_parameter('highlight_chars')
+                line += ' ' + highlight_chars
             out += line + '\n'
 
         return out.rstrip('\n')
